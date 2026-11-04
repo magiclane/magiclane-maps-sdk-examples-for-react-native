@@ -1,0 +1,35 @@
+# Node modules (match the directory AND per-project symlinks to a shared one)
+node_modules
+
+# Build output
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+
+# IDE files
+.idea/
+
+# Misc
+*.local
+*.sublime-workspace
+
+# Local package tarballs (e.g. magiclane-maps-sdk-react-native-*.tgz)
+*.tgz
+
+# CocoaPods lockfile - generated per-clone by `pod install`; keep examples uniform
+Podfile.lock
+
+# Claude / Cowork local agent folder
+.claude/
+**/.claude/settings.local.json

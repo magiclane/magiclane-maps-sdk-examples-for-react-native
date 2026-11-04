@@ -1,0 +1,11 @@
+{
+  "name": "maps-sdk-examples-react-native-scripts",
+  "version": "1.0.0",
+  "description": "Maintenance scripts for the Maps SDK React Native examples",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "sync-versions": "node sync-sdk-versions.js",
+    "check-versions": "node sync-sdk-versions.js --check"
+  }
+}
